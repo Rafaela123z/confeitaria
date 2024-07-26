@@ -88,6 +88,28 @@ nav ul li a:hover {
 .cta-button {
     display: inline-block;
     margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #3498db; /* Cor de fundo azul */
+    color: white; /* Cor do texto branca */
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transição suave para hover */
+}
+
+.cta-button:hover {
+    background-color: #2980b9; /* Cor de fundo mais escura no hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Aumenta a sombra no hover */
+    text-decoration: none; /* Remove sublinhado no hover */
+}
+
+.cta-button:active {
+    background-color: #1e6083; /* Cor de fundo ainda mais escura ao clicar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Reduz a sombra ao clicar */
+    transform: translateY(2px); /* Dá a sensação de que o botão foi pressionado */
 }
 
 footer {
